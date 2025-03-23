@@ -1,6 +1,6 @@
 # Ứng dụng Sửa bài Chính tả
 
-Ứng dụng Android đơn giản giúp học sinh lớp 1 nộp bài chính tả và nhận phản hồi từ cô giáo với giao diện trực quan, thân thiện.
+Ứng dụng Android đơn giản giúp sinh viên mới học lập trình làm quen với các khái niệm cơ bản thông qua mô phỏng quy trình nộp và sửa bài chính tả giữa học sinh lớp 1 và cô giáo.
 
 ## Mô tả
 
@@ -25,7 +25,7 @@
 
 | Học sinh nhập đoạn văn | Cô giáo sửa bài | Kết quả đã sửa |
 |:-------------:|:----------------:|:----------------:|
-| <img src="picture/doanVanHocSinh.png" width="300" alt="Học sinh nhập đoạn văn"> | <img src="picture/doanVanCoGiao.png" width="300" alt="Cô giáo sửa bài"> | <img src="picture/doanVanDaSua.png" width="300" alt="Kết quả đã sửa"> |
+| <img src="picture/doanVanHocSinh.png" width="300" alt="Học sinh nhập đoạn văn"> | <img src="picture/doanVanCoGiao.png" width="300" alt="Cô giáo sửa bài"> | <img src="picture/doanVanSua.png" width="300" alt="Kết quả đã sửa"> |
 
 ## Cấu trúc ứng dụng
 
@@ -44,7 +44,7 @@
 
 ## Yêu cầu hệ thống
 
-- Android 5.0 (API level 21) trở lên
+- Android 14.0 (API level 34 - "UpsideDownCake")
 - Android Studio
 
 ## Cách cài đặt
